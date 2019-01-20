@@ -163,8 +163,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
  [_QW] = KEYMAP( /* Qwerty*/
    TD(TD_Q_ESC),    KC_W,           KC_E,            KC_R,         KC_T,            KC_Y,             KC_U,         KC_I,        KC_O,        KC_P,
-   GUI_T(KC_A),     KC_S,           KC_D,            KC_F,         KC_G,            KC_H,             KC_J,         KC_K,        KC_L,        KC_ESC,
-   LCTL_T(KC_Z),    ALT_T(KC_X),    LT(L3, KC_C),    LT(L4, KC_V), LT(L2, KC_BSPC), LT(L1, KC_SPACE), LT(L5, KC_B), ALT_T(KC_N), CTL_T(KC_M), SFT_T(KC_ENT)
+   GUI_T(KC_A),     KC_S,           KC_D,            KC_F,         KC_G,            KC_H,             KC_J,         KC_K,        KC_L,        KC_ENTER,                                          
+   LCTL_T(KC_Z),    ALT_T(KC_X),    LT(L3, KC_C),    LT(L4, KC_V), LT(L2, KC_BSPC), LT(L1, KC_SPACE), LT(L5, KC_B), ALT_T(KC_N), CTL_T(KC_M), KC_LSFT
+
   ),
 
 
@@ -199,7 +200,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //
 [L2] = KEYMAP ( /* L2 */
   KC_EXLM,   KC_AT,   KC_HASH,   KC_DLR,   KC_CIRC,   KC_PERC,   KC_AMPR,   KC_ASTR,   KC_LPRN,   KC_RPRN    ,
-  KC_F11,    KC_F12,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS  ,
+  KC_F11,    KC_F12,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_GRV  ,
   KC_TRNS,   KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS
 ),
 //
